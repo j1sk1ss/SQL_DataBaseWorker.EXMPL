@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06af4c92-3370-4d9b-825c-47b1297fb9d2" name="Changes" comment="ver 0.1">
+    <list default="true" id="06af4c92-3370-4d9b-825c-47b1297fb9d2" name="Changes" comment="syntax cleaning">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/GuiSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GuiSetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Windows/IncreaseDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Windows/IncreaseDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Windows/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Windows/MainWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669545453460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="syntax cleaning">
+      <created>1669545960161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669545960161</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ver 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver 0.1" />
+    <MESSAGE value="syntax cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="syntax cleaning" />
   </component>
 </project>

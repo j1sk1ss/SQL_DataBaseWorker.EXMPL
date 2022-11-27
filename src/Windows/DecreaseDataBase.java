@@ -13,16 +13,10 @@ import java.sql.SQLException;
 public class DecreaseDataBase extends JFrame implements ActionListener {
     public DecreaseDataBase() throws SQLException {
         super("Добавить книгу");
-        Connector = new Connector();
-    }
-    private final Connector Connector;
-    public JTextField user_input;
-    @Override
-    public void actionPerformed(ActionEvent e) {
+        DataWorker.Connector connector = new Connector();
         new GuiSetter(this);
-
         var button = new JButton("Удалить книгу");
-        button.addActionListener(new DeleteBook(Connector, this));
+        button.addActionListener(new DeleteBook(connector, this));
         var k    = new GridBagConstraints();
         k.insets = new Insets(5,5,5,5);
         this.getContentPane().setLayout(new GridBagLayout());
@@ -31,6 +25,10 @@ public class DecreaseDataBase extends JFrame implements ActionListener {
         k.gridy = 0;
         user_input = new JTextField("", 10);
         this.add(user_input, k);
+    }
+    public JTextField user_input;
+    @Override
+    public void actionPerformed(ActionEvent e) {
         this.setVisible(true);
         this.setResizable(false);
     }

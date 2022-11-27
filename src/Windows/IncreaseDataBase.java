@@ -13,23 +13,22 @@ import java.sql.SQLException;
 public class IncreaseDataBase extends JFrame implements ActionListener {
     public IncreaseDataBase() throws SQLException {
         super("Добавить книгу");
+        new GuiSetter(this).SetIncreaseWindow(this);
         Connector = new Connector();
+        var k = new GridBagConstraints();
+        k.gridy = 10;
+        this.add(button, k);
     }
     public JTextField[] user_input;
     private final Connector Connector;
+    private final JButton button = new JButton("Добавить книгу");
     @Override
     public void actionPerformed(ActionEvent e) {
         OpenWindow();
     }
     private void OpenWindow() {
-        new GuiSetter(this).SetIncreaseWindow(this);
         this.setVisible(true); //Сделать его видимым
         this.setResizable(false);
-
-        var button = new JButton("Добавить книгу");
         button.addActionListener(new AddBook(Connector, this));
-        var k = new GridBagConstraints();
-        k.gridy = 10;
-        this.add(button, k);
     }
 }

@@ -12,7 +12,6 @@ import java.sql.SQLException;
 public class GuiSetter {
     public GuiSetter(JFrame window) {
         window.setBounds(100, 100, 250, 250); //Размеры окна
-        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Window = window;
     }
     private final JFrame Window;
