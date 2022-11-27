@@ -11,10 +11,7 @@ public class Connector {
     private static final String DB_USERNAME = "postgres"; //Имя пользователя СУБД
     private static final String DB_PASSWORD = "1234"; //Пароль пользователя СУБД
     private final Connection connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD); //Подключаемся к БД
-
-    public Connector() throws SQLException {
-
-    }
+    public Connector() throws SQLException {}
     public String GetBooksData() {
         var sqlCommand = "select * from books order by book_id"; //Команда для SQL
         ResultSet result;
@@ -50,7 +47,6 @@ public class Connector {
         JOptionPane.showMessageDialog(null, "Книга успешно добавлена!",
                 "Выполнено", JOptionPane.PLAIN_MESSAGE); //Показать в отдельном окне сообщение
     }
-
     public void DeleteBook(int bookId) {
         try {
             var deleteCommand = "delete from books where book_id = ?"; //Команда SQL: удалить книги с айди = ?

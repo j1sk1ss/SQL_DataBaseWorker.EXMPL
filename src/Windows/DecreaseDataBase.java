@@ -23,7 +23,7 @@ public class DecreaseDataBase extends JFrame implements ActionListener {
 
         var button = new JButton("Удалить книгу");
         button.addActionListener(new DeleteBook(Connector, this));
-        var k = new GridBagConstraints();
+        var k    = new GridBagConstraints();
         k.insets = new Insets(5,5,5,5);
         this.getContentPane().setLayout(new GridBagLayout());
         k.gridy = 1;

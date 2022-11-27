@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 
 public class AddBook implements ActionListener {
     public AddBook(Connector connector, IncreaseDataBase increaseDataBase) {
-        this.connector = connector;
+        this.connector        = connector;
         this.increaseDataBase = increaseDataBase;
     }
     private final Connector connector;

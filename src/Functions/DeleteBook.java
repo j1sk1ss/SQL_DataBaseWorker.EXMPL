@@ -8,11 +8,11 @@ import java.awt.event.ActionListener;
 
 public class DeleteBook implements ActionListener {
     public DeleteBook(Connector connector, DecreaseDataBase decreaseDataBase) {
-        this.connector = connector;
+        this.connector        = connector;
         this.decreaseDataBase = decreaseDataBase;
     }
-    private Connector connector;
-    private DecreaseDataBase decreaseDataBase;
+    private final Connector connector;
+    private final DecreaseDataBase decreaseDataBase;
     @Override
     public void actionPerformed(ActionEvent e) {
         connector.DeleteBook(Integer.parseInt(decreaseDataBase.user_input.getText()));

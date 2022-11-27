@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06af4c92-3370-4d9b-825c-47b1297fb9d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL_DataBaseWorker.EXMPL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataWorker/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/AddBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/DeleteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/ShowData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui/GuiSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Windows/DecreaseDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Windows/IncreaseDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Windows/MainWindow.java" afterDir="false" />
+    <list default="true" id="06af4c92-3370-4d9b-825c-47b1297fb9d2" name="Changes" comment="ver 0.1">
+      <change beforePath="$PROJECT_DIR$/src/Gui/GuiSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GuiSetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669536307969</updated>
     </task>
+    <task id="LOCAL-00001" summary="ver 0.1">
+      <created>1669545453460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669545453460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ver 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver 0.1" />
   </component>
 </project>
